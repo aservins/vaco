@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Stackexchange</string>
+    <string name="owner">Owner</string>
+    <string name="title">Title</string>
+    <string name="tags">Tags</string>
+    <string name="link"><u>Link</u></string>
+    <string name="date">Date</string>
+    <string name="image_owner">Image Owner</string>
+    <string name="stackoverflow_questions">Stackoverflow Questions</string>
 </resources>

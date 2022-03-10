@@ -26,7 +26,7 @@ class ViewModels : ViewModel() {
                 val response = apiInstance.getQuestions("desc", "activity", "stackoverflow")
                 val list = mutableListOf<Questions>()
                 response.items.forEach {
-                    if (it.is_answered) {
+                    if (it.is_answered && it.answer_count > 1) {
                         list.add(it)
                     }
                 }
