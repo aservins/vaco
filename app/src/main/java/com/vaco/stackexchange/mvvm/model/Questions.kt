@@ -3,7 +3,7 @@ package com.vaco.stackexchange.mvvm.model
 data class Questions(
     var tas : ArrayList<String> = ArrayList(),
     val owner : Owner,
-    var is_answered: String,
+    var is_answered: Boolean,
     var view_count: Int,
     var answer_count: Int,
     var score: Int,
